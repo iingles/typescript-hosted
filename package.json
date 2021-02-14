@@ -1,0 +1,32 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "typescript project for DGM 3780",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack serve --config webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DGM-3780-Spring2021/typescript---connect-to-a-rest-api-iingles.git"
+  },
+  "author": "Isaac Ingles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DGM-3780-Spring2021/typescript---connect-to-a-rest-api-iingles/issues"
+  },
+  "homepage": "https://github.com/DGM-3780-Spring2021/typescript---connect-to-a-rest-api-iingles#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.2",
+    "html-webpack-plugin": "^5.0.0",
+    "mini-css-extract-plugin": "^1.3.6",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.1.5",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

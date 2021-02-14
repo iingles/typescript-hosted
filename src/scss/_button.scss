@@ -1,0 +1,16 @@
+.action-box-button {
+    padding: 1rem;
+    display: block;
+    border: none;
+    width: 100%;
+    border-radius: 20rem;
+    text-transform: uppercase;
+    background: $purple;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.15s ease-in;
+
+    &:hover {
+        background: $lightPurple;
+    }
+}
