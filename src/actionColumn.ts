@@ -22,7 +22,7 @@ export const actionColumn = (heading: string, text: string, action: string):HTML
     actionColumn.appendChild( button('click', async () => {
         const random: number = Math.floor(Math.random() * (1 + 10) + 1)
 
-        const url:string = `https://swapi.dev/api/${action}/${random}`
+        const url:string = `https://swapi.dev/api/${action}/${random}/`
 
         const response = await fetch(url)
         console.log(url)
